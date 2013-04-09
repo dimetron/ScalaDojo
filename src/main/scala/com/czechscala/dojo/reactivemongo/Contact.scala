@@ -8,6 +8,6 @@ package com.czechscala.dojo.reactivemongo
  * To change this template use File | Settings | File Templates.
  */
 
-case class Contact(name:String, email:String)
+case class Contact(name: String, email: String)
 
 
