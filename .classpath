@@ -1,0 +1,24 @@
+<classpath>
+  <classpathentry output="target/scala-2.10/classes" path="src/main/scala" kind="src"></classpathentry>
+  <classpathentry output="target/scala-2.10/classes" path="src/main/java" kind="src"></classpathentry>
+  <classpathentry output="target/scala-2.10/test-classes" path="src/test/scala" kind="src"></classpathentry>
+  <classpathentry output="target/scala-2.10/test-classes" path="src/test/java" kind="src"></classpathentry>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"></classpathentry>
+  <classpathentry path="/Users/drashko/.ivy2/cache/org.reactivemongo/reactivemongo_2.10/jars/reactivemongo_2.10-0.8.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/drashko/.ivy2/cache/io.netty/netty/bundles/netty-3.3.1.Final.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/drashko/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/bundles/akka-actor_2.10-2.1.0.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/drashko/.ivy2/cache/com.typesafe/config/bundles/config-1.0.0.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/drashko/.ivy2/cache/play/play-iteratees_2.10/jars/play-iteratees_2.10-2.1-RC2.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/drashko/.ivy2/cache/org.scala-stm/scala-stm_2.10.0/jars/scala-stm_2.10.0-0.6.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/drashko/.ivy2/cache/com.github.scala-incubator.io/scala-io-file_2.10.0-RC1/jars/scala-io-file_2.10.0-RC1-0.4.1.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/drashko/.ivy2/cache/com.github.scala-incubator.io/scala-io-core_2.10.0-RC1/jars/scala-io-core_2.10.0-RC1-0.4.1.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/drashko/.ivy2/cache/com.jsuereth/scala-arm_2.10.0-RC1/jars/scala-arm_2.10.0-RC1-1.2.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/drashko/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.0.9.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/drashko/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.0.9.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/drashko/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.2.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/drashko/.ivy2/cache/org.scalatest/scalatest_2.10/jars/scalatest_2.10-1.9.1.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/drashko/.ivy2/cache/org.scala-lang/scala-actors/jars/scala-actors-2.10.0.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/drashko/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.0.jar" kind="lib"></classpathentry>
+  <classpathentry path="org.eclipse.jdt.launching.JRE_CONTAINER" kind="con"></classpathentry>
+  <classpathentry path="bin" kind="output"></classpathentry>
+</classpath>
