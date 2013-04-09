@@ -1,11 +1,10 @@
-This is small project created by
+This is small project created by:
 
-- Bohumír Zámečník,
+- Bohumír Zámečník
 - Dmitriy Rashko
 
 during Scala Coding dojo -
 http://www.meetup.com/czech-scala-enthusiasts/events/110392982/
 
-
-Intention of this example project is to try ReactiveMongo library - http://reactivemongo.org with Scala 2.10
+Intention of this example project is to try ReactiveMongo library - http://reactivemongo.org
 and show what kind of problems we need to solve when we use and test Async results.
