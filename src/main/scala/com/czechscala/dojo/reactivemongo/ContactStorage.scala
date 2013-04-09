@@ -35,16 +35,17 @@ object ContactStorage {
   def connected = db != null
 
   def clean {
-    val res = db(collectionName).drop()
-    Await.ready(res, 10 second)
+    val res1 = db(collectionName).drop
+    Await.ready(res1, 10 second)
+
+    val res2 = db(collectionName).create(true)
+    Await.ready(res2, 10 second)
   }
 
   def count: Int = {
 
     var count = 0
-    val col: DefaultCollection = db(collectionName)
-
-    val res = col.stats()
+    val res = db(collectionName).stats()
     res.onSuccess {
       case cr: CollStatsResult => count = cr.count
     }

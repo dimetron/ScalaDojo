@@ -9,13 +9,12 @@ class ContactStorageTest extends FunSuite {
     assert(ContactStorage.connected)
 
     ContactStorage.clean
+    assert(0 === ContactStorage.count)
 
-    val contactsInStorageBefore = ContactStorage.count
-    val c = Contact("Bohumír Zámečník", "Bohumir.Zamecnik@gmail.com")
-    ContactStorage.insert(c)
+    ContactStorage.insert(Contact("Bohumír Zámečník", "Bohumir.Zamecnik@gmail.com"))
+    assert(1 === ContactStorage.count)
 
-    println(ContactStorage.count)
-
-    assert(contactsInStorageBefore + 1 == ContactStorage.count)
+    ContactStorage.insert(Contact("Dmitriy Rashko", "drashko@me.com"))
+    assert(2 === ContactStorage.count)
   }
 }
